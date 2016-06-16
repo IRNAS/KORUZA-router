@@ -44,6 +44,6 @@ Hereby we list all the different ideas that could be included, later defined in 
 * WiFi 5GHz expansions socket
 * GPIO ports
 * Relay expansion
-
+* Bluetooth for configuration and control
 
 

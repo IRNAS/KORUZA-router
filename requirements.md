@@ -16,15 +16,15 @@
   * 4x Gigabit ethernet RJ-45 with LED (Passive PoE pins extracted to connector)
   * 1x external SFP+ port with cage with LED(KORUZA specific switching circuit!)
   * 1x internal SFP port without cage with LED
-  * 14 pin Power board connector (2.54mm, dual row)
+  * Power board connector (2.54mm, dual row)
   * 1x USB 3.0 connector external
   * 1x MicroSD card connector
   * GPIO expansion connector
-   * 1x USB 2.0
-   * 1x I2C
-   * 2x UART
-   * 5V power
-   * GPIO pins
+    * 1x USB 2.0
+    * 1x I2C
+    * 2x UART
+    * 5V power
+    * GPIO pins
   * Console UART (4 pin 2.54mm)
   * Push button reset
   * 2x status LED, software controllable (can be switched off in software), all LEDs must be visible from the connector edge of the router
@@ -81,7 +81,7 @@ There are two standalone multiplex ICs used one for high-speed 10 GHz differenti
 Reference design under development.
 
 ## Power supply
-The main router board operates at 5V power and has a respective input for 5V. PoE functionality is implemented as separate Power supply board that connect though a 14 pin Power board connector. 
+The main router board operates at 5V power and has a respective input for 5V. PoE functionality is implemented as separate Power supply board that connect though a Power board connector. 
 
 
 

@@ -28,7 +28,7 @@
   * Console UART (4 pin 2.54mm)
   * Push button reset
   * 2x status LED, software controllable (can be switched off in software), all LEDs must be visible from the connector edge of the router
-  * Connector layout guide see image ?
+  * Connector layout guide see image for guidance (discuss with manufacturer)
  
  * Power
   * Input: Gigabit Ethernet connector power pins connected to Power board connector
@@ -83,7 +83,7 @@ Reference design under development.
 ## Power supply
 The main router board operates at 5V power and has a respective input for 5V. PoE functionality is implemented as separate Power supply board that connect though a Power board connector. 
 
-
+![alt tag](https://github.com/IRNAS/KORUZA-router/blob/master/KoruzaDiagram.png)
 
 
 

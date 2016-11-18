@@ -2,8 +2,11 @@
 
 KORUZA router is an open hardware open software development of a routing platform to be used in wireless optical system KORUZA as the control and routing platform as well as secondarily as management for wireless outdoor routers typically used in mesh networks. This repository currently serves as the ongoing requirements base for developing such a device.
 
+# What is in this repository?
+Router specification is developed using the following approach. Issues opened in this repository discuss and comment features. [Requirements](requirements.md) file implements the features from all Issues in a document to communicate with the manufacturer. Please comment in Issues or push suggested changes to requirements.
+
 # KORUZA - Primary use-case
-This router is the heart of KORUZA system and runs all applicaiton specific code, alignment algorithms and user interface. It is connected with the followin:
+This router is the heart of KORUZA system and runs all applicaiton specific code, alignment algorithms and user interface. It is connected with the following:
 
 Internally:
  * SFP module for wireless link (1G/10G data + i2c)

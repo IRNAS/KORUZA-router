@@ -32,7 +32,7 @@
  
  * Power
   * Input: Gigabit Ethernet connector power pins connected to Power board connector
-  * Input: Internal 2-oin header on board for 5V input
+  * Input: Internal 2-pin header on board for 5V input
   * Standalone Power board
    * Passive PoE in/out for every RJ-45 port
    * Voltage regulator for 5V output to power router
@@ -52,7 +52,7 @@
    
  * Reliability
   * ESD: Conductive 4 kV, Air 8 kV
-  * Surge protection: gas discharge arrestors on all RJ-45 ports
+  * Surge protection: gas discharge arrestors on all RJ-45 ports (subject to cost)
   * MTBF: Over 50000h
    
  * Compliance standard:

@@ -72,6 +72,9 @@ There are two SFP port, one is with cage facing the connector edge of the board,
 
 The implementation of SFP ports must comply with SFP MSA standard and power supply must be filtered according to specification.
 
+## I2C Mux
+Because the main CPU has only one I2C bus, there is a need for some kind of multiplexing because of two SFP ports. The additional requirement is to have I2C of internal SFP port also on the expander connector like shown in the diagram below.
+
 ## Power supply
 The main router board operates at 5V power and has a respective input for 5V. PoE functionality is implemented as separate Power supply board that connect though a Power board connector. 
 

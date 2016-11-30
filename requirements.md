@@ -75,7 +75,7 @@ The implementation of SFP ports must comply with SFP MSA standard and power supp
 ## Power supply
 The main router board operates at 5V power and has a respective input for 5V. PoE functionality is implemented as separate Power supply board that connect though a Power board connector. 
 
-![alt tag](https://github.com/IRNAS/KORUZA-router/blob/master/KoruzaDiagram.png)
+![alt tag](https://github.com/IRNAS/KORUZA-router/blob/1G-router-requirements/KoruzaDiagram1G.png)
 
 
 

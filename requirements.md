@@ -14,7 +14,7 @@
  
  * Physical interfaces
   * 4x Gigabit ethernet RJ-45 with LED (Passive PoE pins extracted to connector)
-  * 1x external SFP+ port with cage with LED(KORUZA specific switching circuit!)
+  * 1x external SFP+ port with cage with LED
   * 1x internal SFP port without cage with LED
   * Power board connector (2.54mm, dual row)
   * 1x USB 3.0 connector external
@@ -63,22 +63,14 @@
 # Detailed features and implementations - Main router board
 Describes specifics for hardware implementation and design requirements on a technical level. The overall KORUZA system consists of 3 standalone boards: Main router board, power supply board and KORUZA control board. Hereby we are specifying router board only.
 
-## SFP interface with multiplexing
-The SFP portion of the router is most demanding with multiplexing requirements and SFP+ 10Gbps port built in. Note that when in 10Gbps mode, data bypasses the router.
+## SFP interface
+There are two SFP port, one is with cage facing the connector edge of the board, and one is internal. The internal SFP port is without the cage, but he will be also facing the connector edge of the board and have space for the cage to be soldered if needed.
 
  * SFP ports
-  * external SFP+ (marked A) (1Gbps or 10Gbps) with cage, connected to multiplexer that switches it to:
-   * SerDes PHY and then to CPU via RGMII port
-   * secondary SFP connector without cage
-  * internal SFP (marked B) (1Gbps only), connected to SerDes PHY and then CPU directly to switch, without cage
-  * internal SFP+ (marked C) (1Gbps or 10Gbps) without cage, connected to multiplexer
+  * external SFP+ (marked A) (1Gbps) with cage, connected to multiplexer that switches it to SerDes PHY and then to CPU via RGMII port
+  * internal SFP (marked B) (1Gbps only), connected to SerDes PHY and then CPU directly to switch
 
 The implementation of SFP ports must comply with SFP MSA standard and power supply must be filtered according to specification.
-
-### Multiplexing
-There are two standalone multiplex ICs used one for high-speed 10 GHz differential lines and one for low-speed management signals. SFP port A is switched either to SFP port B or port C.
-
-Reference design under development.
 
 ## Power supply
 The main router board operates at 5V power and has a respective input for 5V. PoE functionality is implemented as separate Power supply board that connect though a Power board connector. 

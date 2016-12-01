@@ -33,12 +33,6 @@
  * Power
   * Input: Gigabit Ethernet connector power pins connected to Power board connector
   * Input: Internal 2-pin header on board for 5V input
-  * Standalone Power board
-   * Passive PoE in/out for every RJ-45 port
-   * Voltage regulator for 5V output to power router
-   * I2C current/voltage measurement
-   * Single cell LiPo battery backup option
-   * Voltage measurement via I2C
   * Consumption: TDB (estimated 7-10W with 1 SFP module active)
   
  * Environmental & Mechanical
@@ -56,7 +50,7 @@
   * MTBF: Over 50000h
    
  * Compliance standard:
-  * CE Mark
+  * CE Mark for standalone sales
   * FCC
   * RoHS
    

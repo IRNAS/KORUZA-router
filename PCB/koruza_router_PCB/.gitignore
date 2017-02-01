@@ -1,12 +1,5 @@
-# Ignore everything
-*
+#Altium project
 
-# But not these files...
-!.gitignore
-!.PrjPcb
-!.SchDoc
-!.PcbDoc
-# etc...
+/__Previews/*
+/History/*
 
-# ...even if they are in subdirectories
-!*/

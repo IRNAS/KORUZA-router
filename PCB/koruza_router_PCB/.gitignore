@@ -3,3 +3,5 @@
 /__Previews/*
 /History/*
 
+*.PrjPcbStructure
+*.OutJob

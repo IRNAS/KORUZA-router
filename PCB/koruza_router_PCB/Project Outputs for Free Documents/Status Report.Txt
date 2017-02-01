@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 7:02:02 PM On 02/01/2017
+
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [koruza_router_PCB1.PcbDoc]
+   Generated File[koruza_router_PCB1.step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 7:02:39 PM On 02/01/2017

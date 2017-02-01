@@ -31,7 +31,7 @@
   * Console UART (4 pin 2.54mm)
   * Push button reset (same as Mqmaker WiTi)
   * 2x status LED, software controllable (can be switched off in software), all LEDs must be visible from the connector edge of the router
-  * Connector layout [see image for details](connector_layout.png)
+  * Connector layout [see image for details](https://github.com/IRNAS/KORUZA-router/blob/1G-router-requirements/PCB/koruza_router_PCB/Project%20Outputs%20for%20koruza_router_PCB/koruza_router.PDF)
  
  * Power
   * Input: Gigabit Ethernet power pins connected to expansion connector

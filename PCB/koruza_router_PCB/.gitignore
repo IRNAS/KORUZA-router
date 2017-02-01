@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!.PrjPcb
+!.SchDoc
+!.PcbDoc
+# etc...
+
+# ...even if they are in subdirectories
+!*/

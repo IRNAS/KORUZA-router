@@ -75,6 +75,9 @@ Because the main CPU has only one I2C bus, there is a need for some kind of mult
 ## Power supply
 The main router board operates at 5V power and has a respective input for 5V. PoE functionality is implemented as separate Power supply board that connect though a GPIO expansion connector. 
 
+## Mehanical design
+All necessary mechanical design requirements for Koruza router can be found in the [PCB part of the repository](https://github.com/IRNAS/KORUZA-router/tree/1G-router-requirements/PCB/koruza_router_PCB).
+
 ![alt tag](https://github.com/IRNAS/KORUZA-router/blob/1G-router-requirements/KoruzaDiagram1G.png)
 
 

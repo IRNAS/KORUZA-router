@@ -16,12 +16,12 @@
  
  * Physical interfaces
   * 4x Gigabit ethernet RJ-45 with LED
-   * Gigabit passive PoE conections: positive + 4,5, negative - 7,8
-   * Each ethernet port power lines connected to expansion header, [connection diagram](gigabit-passive-poe.png)
+    * Gigabit passive PoE conections: positive + 4,5, negative - 7,8
+    * Each ethernet port power lines connected to expansion header, [connection diagram](gigabit-passive-poe.png)
   * 2x external SFP port with cage with LED
   * 1x USB 3.0 connector external
   * 1x MicroSD card connector
-  * GPIO expansion connector (30pin 2.54mm, 2x15 dual row)
+  * GPIO expansion connector (30pin 2.54mm, 2x15 dual row), [connection diagram](gigabit-passive-poe.png)
     * 1x USB 2.0
     * 2x I2C
     * 2x UART
@@ -58,7 +58,7 @@
   * RoHS
    
 # Detailed features and implementations - Main router board
-Describes specifics for hardware implementation and design requirements on a technical level. The overall KORUZA system consists of 3 standalone boards: Main router board, power supply board and KORUZA control board. Hereby we are specifying router board only.
+Describes specifics for hardware implementation and design requirements on a technical level. The overall KORUZA system consists of 2 standalone boards: Main router board, Koruza board (power supply + KORUZA control). Hereby we are specifying router board only.
 
 ## SFP interface
 There are two SFP port, one is with cage facing the connector edge of the board, and one is internal. The internal SFP port is without the cage, but he will be also facing the connector edge of the board and have space for the cage to be soldered if needed.
@@ -73,7 +73,7 @@ The implementation of SFP ports must comply with SFP MSA standard and power supp
 Because the main CPU has only one I2C bus, there is a need for some kind of multiplexing because of two SFP ports. The additional requirement is to have I2C of internal SFP port also on the expander connector like shown in the diagram below.
 
 ## Power supply
-The main router board operates at 5V power and has a respective input for 5V. PoE functionality is implemented as separate Power supply board that connect though a Power board connector. 
+The main router board operates at 5V power and has a respective input for 5V. PoE functionality is implemented as separate Power supply board that connect though a GPIO expansion connector. 
 
 ![alt tag](https://github.com/IRNAS/KORUZA-router/blob/1G-router-requirements/KoruzaDiagram1G.png)
 

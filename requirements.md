@@ -17,11 +17,11 @@
  * Physical interfaces
   * 4x Gigabit ethernet RJ-45 with LED
     * Gigabit passive PoE conections: positive + 4,5, negative - 7,8
-    * Each ethernet port power lines connected to expansion header, [connection diagram](gigabit-passive-poe.png)
+    * Each ethernet port power lines connected to expansion header, [connection diagram](https://github.com/IRNAS/KORUZA-router/blob/1G-router-requirements/PCB/koruza_router_PCB/pics/GPIO%20expansion%20connector%20pinout.png)
   * 2x external SFP port with cage with LED
   * 1x USB 3.0 connector external
   * 1x MicroSD card connector
-  * GPIO expansion connector (30pin 2.54mm, 2x15 dual row), [connection diagram](gigabit-passive-poe.png)
+  * GPIO expansion connector (30pin 2.54mm, 2x15 dual row), [connection diagram](https://github.com/IRNAS/KORUZA-router/blob/1G-router-requirements/PCB/koruza_router_PCB/pics/GPIO%20expansion%20connector%20pinout.png)
     * 1x USB 2.0
     * 2x I2C
     * 2x UART

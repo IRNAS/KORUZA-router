@@ -28,6 +28,9 @@ Free version of the Altium designer viuwer can be downloaded form this [link][al
 ![alt tag](https://github.com/IRNAS/KORUZA-router/blob/1G-router-requirements/PCB/koruza_router_PCB/pics/GPIO%20expansion%20connector%20pinout.png)
 
 
+## Mechanical layout
+![alt tag](https://github.com/IRNAS/KORUZA-router/blob/1G-router-requirements/PCB/koruza_router_PCB/pics/PCB_dimensions.png)
+
 [altium_link]: http://www.altium.com/
 [altium_download]: http://www.altium.com/altium-designer-viewer
 [pdf_docs_link]: https://github.com/IRNAS/KORUZA-router/blob/1G-router-requirements/PCB/koruza_router_PCB/Project%20Outputs%20for%20koruza_router_PCB/koruza_router.PDF

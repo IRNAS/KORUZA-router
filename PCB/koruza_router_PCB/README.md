@@ -1,13 +1,14 @@
 # Koruza router layout
 
 Layout for koruza router is done in [Altium designer][altium_link]. Also there is [PDF documentation][pdf_docs_link] of the project. 
-Free version of the Altium designer viuwer can be downloaded form this [link][altium_download].
+The free version of the Altium designer viewer can be downloaded from this [link][altium_download].
 
 ### Mandatory:
 * board shape
 * board dimensions
 * board mounting holes
 * GPIO expansion connector position
+* SFP modules must have separate cages
 * components that must be on the front edge of the board:
   * reset button
   * status LEDs
@@ -18,9 +19,9 @@ Free version of the Altium designer viuwer can be downloaded form this [link][al
   
   
 ### Not mandatory:
-* microSD card slot can be placed on any edge, exept front edge with connectros
-* console header can be placed near eny other edge
-* 5.08mm 2-pin screw terminal can be placed on any edge, exept front edge with connectros
+* microSD card slot can be placed on any edge, except front edge with connectors
+* console header can be placed near any another edge
+* 5.08mm 2-pin screw terminal can be placed on any edge, except front edge with connectors
 
 
 
@@ -34,6 +35,3 @@ Free version of the Altium designer viuwer can be downloaded form this [link][al
 [altium_link]: http://www.altium.com/
 [altium_download]: http://www.altium.com/altium-designer-viewer
 [pdf_docs_link]: https://github.com/IRNAS/KORUZA-router/blob/1G-router-requirements/PCB/koruza_router_PCB/Project%20Outputs%20for%20koruza_router_PCB/koruza_router.PDF
-
-
-
